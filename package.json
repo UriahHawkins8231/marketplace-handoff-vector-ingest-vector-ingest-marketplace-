@@ -1,0 +1,21 @@
+{
+  "name": "marketplace-handoff-vector-ingest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/marketplace_service.ts",
+    "example": "tsx src/marketplace_example.ts",
+    "test": "tsx --test test/marketplace_chunks.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "7.8.0",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.1",
+    "tsx": "4.23.13",
+    "typescript": "5.9.2"
+  }
+}
